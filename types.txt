@@ -1,0 +1,40 @@
+// cohere
+
+const options = {
+  method: 'POST',
+  url: 'https://api.cohere.ai/v1/generate',
+  headers: {accept: 'application/json', 'content-type': 'application/json'},
+  data: {
+    max_tokens: 20,
+    truncate: 'END',
+    return_likelihoods: 'NONE',
+    prompt: 'Please explain to me how LLMs work'
+  }
+};
+
+// vicuna
+
+import Replicate from "replicate";
+
+const replicate = new Replicate({
+  auth: process.env.REPLICATE_API_TOKEN,
+});
+
+const output = await replicate.run(
+  "replicate/vicuna-13b:6282abe6a492de4145d7bb601023762212f9ddbbe78278bd6771c8b3b2f2a13b",
+  {
+    input: {
+      prompt: "..."
+    }
+  }
+);
+
+// OpenAI
+
+{
+    messages: [
+        { role: "system", content: "You are a helpful assistant." },
+        { role: "user", content: "What's the weather like today?" }
+    ],
+    model: "gpt-3.5-turbo",
+}

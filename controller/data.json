@@ -1,0 +1,17 @@
+[
+  {
+    "one": "\n{\n  \"model\": \"gpt-3\",\n  \"payload\": {\n    \"messages\": [\n      { \"role\": \"system\", \"content\": \"You are a helpful assistant.\" },\n      { \"role\": \"user\", \"content\": \"undefined\" }\n    ],\n    \"model\": \"gpt-3.5-turbo\"\n  }\n}\n"
+  },
+  {
+    "one": "\n{\n  \"model\": \"gpt-3\",\n  \"payload\": {\n    \"messages\": [\n      { \"role\": \"system\", \"content\": \"You are a helpful assistant.\" },\n      { \"role\": \"user\", \"content\": \"undefined\" }\n    ],\n    \"model\": \"gpt-3.5-turbo\"\n  }\n}\n"
+  },
+  {
+    "one": "\n{\n  \"model\": \"gpt-3\",\n  \"payload\": {\n    \"messages\": [\n      { \"role\": \"system\", \"content\": \"You are a helpful assistant.\" },\n      { \"role\": \"user\", \"content\": \"undefined\" }\n    ],\n    \"model\": \"gpt-3.5-turbo\"\n  }\n}\n"
+  },
+  {
+    "adam": "\n{\n  \"model\": \"gpt-3\",\n  \"payload\": {\n    \"messages\": [\n      { \"role\": \"system\", \"content\": \"You are a helpful assistant.\" },\n      { \"role\": \"user\", \"content\": \"undefined\" }\n    ],\n    \"model\": \"gpt-3.5-turbo\"\n  }\n}\n"
+  },
+  {
+    "adam": "\n{\n  \"model\": \"gpt-3\",\n  \"payload\": {\n    \"messages\": [\n      { \"role\": \"system\", \"content\": \"You are a helpful assistant.\" },\n      { \"role\": \"user\", \"content\": \"undefined\" }\n    ],\n    \"model\": \"gpt-3.5-turbo\"\n  }\n}\n"
+  }
+]
